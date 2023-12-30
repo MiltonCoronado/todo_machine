@@ -1,18 +1,18 @@
-import { TodoCounter } from '../TodoCounter/TodoCounter';
-import { TodoSearch } from '../TodoSearch/TodoSearch';
-import { TodoList } from '../TodoList/TodoList';
-import { TodoItem } from '../TodoItem/TodoItem';
-import { CreateTodoButton } from '../CreateTodoButton/CreateTodoButton'
-import { TodosLoading } from '../TodosLoading/TodosLoading';
-import { TodosError } from '../TodosError/TodosError';
-import { EmptyTodos } from '../EmptyTodos/EmptyTodos';
-import { TodoForm } from '../TodoForm/TodoForm';
-import { Modal } from '../Modal/Modal';
-import { TodoHeader } from '../TodoHeader/TodoHeader';
-import { useCustomContext } from './useCustomContext';
-import { ChangeAlertWithStorageListener } from '../ChangeAlert/ChangeAlert';
+import { TodoCounter } from '../../UI/TodoCounter/TodoCounter.js';
+import { TodoSearch } from '../../UI/TodoSearch/TodoSearch.js';
+import { TodoList } from '../../UI/TodoList/TodoList.js';
+import { TodoItem } from '../../UI/TodoItem/TodoItem.js';
+import { CreateTodoButton } from '../../UI/CreateTodoButton/CreateTodoButton.js';
+import { TodosLoading } from '../../UI/TodosLoading/TodosLoading.js';
+import { TodosError } from '../../UI/TodosError/TodosError.js';
+import { EmptyTodos } from '../../UI/EmptyTodos/EmptyTodos.js';
+import { TodoForm } from '../../UI/TodoForm/TodoForm.js';
+import { Modal } from '../../UI/Modal/Modal.js';
+import { TodoHeader } from '../../UI/TodoHeader/TodoHeader.js';
+import { useCustomContext } from '../useCustomContext.js';
+import { ChangeAlertWithStorageListener } from '../../UI/ChangeAlert/ChangeAlert.js';
 
-function App() {
+const HomePage = () => {
   const {
     loading,
     error,
@@ -90,4 +90,4 @@ function App() {
 };
 
   
-export { App }; 
+export { HomePage }; 
