@@ -1,25 +1,23 @@
+import { CheckIcon } from '../CheckIcon/CheckIcon.js';
+import { DeleteIcon } from '../DeleteIcon/DeleteIcon.js';
 import './TodoItem.css';
 
 function TodoItem(props) {
   return (
     <li className="TodoItem">
-      <span 
-        className={`Icon Icon-check ${props.completed && "Icon-check--active"}`}//Esta es la forma dinamica con el operador ternario && en que se agrega la clase "Icon-check--active"
-        onClick={props.onComplete}
-        >
-        ✔
-      </span>
-      <p className={`TodoItem-p ${props.completed && "TodoItem-p--complete"}`}>{/*Esta es la forma dinamica con el operador ternario && en que se agrega la clase "TodoItem-p--complete"*/}
+      <CheckIcon 
+      completed={props.completed}
+      crossOut={props.onComplete}
+      />   
+        <p className={`TodoItem-p ${props.completed && "TodoItem-p--complete"}`}>{/*Esta es la forma dinamica con el operador ternario && en que se agrega la clase "TodoItem-p--complete"*/}
         {props.text}
       </p>
-      <span 
-        className="Icon Icon-delete"
-        onClick={props.onDelete}
-        >
-        X
-      </span>
+      <DeleteIcon 
+      eliminate={props.onDelete}
+      />
     </li>
   );
 }
+
 
 export { TodoItem };
