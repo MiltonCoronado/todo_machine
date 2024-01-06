@@ -1,6 +1,6 @@
 import { TodoIcon } from '../TodoIcon/TodoIcon.js';
 
-const CheckIcon = ({ completed, crossOut }) => {
+const IconCheck = ({ completed, crossOut }) => {
   return (
     <TodoIcon 
       type='check'
@@ -11,4 +11,4 @@ const CheckIcon = ({ completed, crossOut }) => {
 };
 
 
-export { CheckIcon };
+export { IconCheck };

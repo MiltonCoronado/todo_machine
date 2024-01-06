@@ -1,6 +1,6 @@
 import { TodoIcon } from '../TodoIcon/TodoIcon.js';
 
-const DeleteIcon = ({ eliminate }) => {
+const IconDelete = ({ eliminate }) => {
   return (
     <TodoIcon 
       type='delete'
@@ -11,4 +11,4 @@ const DeleteIcon = ({ eliminate }) => {
 };
 
 
-export { DeleteIcon };
+export { IconDelete };
