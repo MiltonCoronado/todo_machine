@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todo_machine/static/css/main.c2b0c207.css",
+    "main.js": "/todo_machine/static/js/main.0f7e210f.js",
+    "index.html": "/todo_machine/index.html",
+    "static/media/delete.svg": "/todo_machine/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/todo_machine/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.c2b0c207.css.map": "/todo_machine/static/css/main.c2b0c207.css.map",
+    "main.0f7e210f.js.map": "/todo_machine/static/js/main.0f7e210f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2b0c207.css",
+    "static/js/main.0f7e210f.js"
+  ]
+}
