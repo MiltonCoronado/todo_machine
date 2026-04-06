@@ -24,8 +24,8 @@ const useLocalStorage = (itemName, initialValue) => {
         setLoading(false);
         setError(true);
       }
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, 2000);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const saveActionStorage = (newItem) => {
